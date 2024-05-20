@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis de la Edad </title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="contenedor col-6">
+        <h2 class="centrado">Ingrese los siguientes datos:</h2>
+        <div class="cajaFlex col-12">
+            <div class="derecha col-5">
+                <label for="nombre">Nombre: </label>
+            </div>
+            <div class="izquierda col-6">
+                <input type="text" id="nombre" name="nombre" maxlength="100" class="col-8">
+            </div>
+        </div>
+        <div class="cajaFlex col-12">
+            <div class="col-5 derecha">
+                <label for="edad">Edad:</label>
+            </div>
+            <div class="col-6 izquierda">
+                <input type="number" id="edad" name="edad" min="0" max="110" class="col-2">
+            </div>
+        </div>
+        <div class="centrado div-boton">
+            <button class="boton">Enviar</button>
+        </div>
+
+        <div class="mensaje centrado ">
+        </div>
+        <div class="mensajeError centrado ">
+        </div>
+    </div>
+
+
+    <script src="script/a_28.js"></script>
+</body>
+
+</html>
